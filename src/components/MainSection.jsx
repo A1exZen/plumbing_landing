@@ -36,7 +36,7 @@ const MainSection = () => {
 		<main className="mx-auto mt-6">
 			<div className="w-full">
 				<motion.img
-					src="/public/логотипы.png"
+					src="/логотипы.png"
 					alt="Poolspa Logo"
 					className="mr-2 w-full"
 					initial={{opacity: 0}}

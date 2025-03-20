@@ -39,10 +39,10 @@ const Header = () => {
 		<header
 			className={` text-white p-4 flex justify-between items-center px-20 ${isSpecialPage ? 'bg-white' : 'bg-gradient-to-r from-blue-600 to-blue-400'}`}>
 			{isSpecialPage ? (
-				<Link to='/'><img src='/public/лого%20-%20синий.png' alt='Logo'
+				<Link to='/'><img src='/лого%20-%20синий.png' alt='Logo'
 				                  className='w-13'/></Link>
 			) : (
-				<Link to='/'><img src='/public/лого - белый.png' alt='Logo'
+				<Link to='/'><img src='/лого - белый.png' alt='Logo'
 				                  className='w-13'/></Link>
 			)
 			}
@@ -82,11 +82,11 @@ const Header = () => {
 						<Link to="/login"
 						      className="text-black px-1 py-1 rounded-full hover:bg-gray-500/40">
 							{isSpecialPage ? (
-								<img src="/public/иконка%20-%20вход%20(синий).png"
+								<img src="/иконка%20-%20вход%20(синий).png"
 								     alt="profile"
 								     className="w-7"/>
 							) : (
-								<img src="/public/иконка - вход.png" alt="profile"
+								<img src="/иконка - вход.png" alt="profile"
 								     className="w-7"/>
 							)
 							}
@@ -99,13 +99,13 @@ const Header = () => {
 
 					{isSpecialPage ? (
 						<img
-							src="/public/иконка%20-%20корзина%20(синий).png"
+							src="/иконка%20-%20корзина%20(синий).png"
 							alt="cart"
 							className="w-7"
 						/>
 					) : (
 						<img
-							src="/public/иконка - корзина.png"
+							src="/иконка - корзина.png"
 							alt="cart"
 							className="w-7"
 						/>
